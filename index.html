@@ -176,14 +176,15 @@
         .controller('cartController', ['$scope', function ($scope) {
 
           // Demo catalog (replace with your real data source)
-          $scope.products = [
-            { id: 1, name: 'PSU Hoodie', description: 'Soft fleece, navy', price: 49.99, image: 'https://picsum.photos/seed/psu-hoodie/400/240' },
-            { id: 2, name: 'Nittany Cap', description: 'Adjustable, embroidered', price: 24.99, image: 'https://picsum.photos/seed/psu-cap/400/240' },
-            { id: 3, name: 'Campus Sticker Pack', description: 'Set of 6', price: 9.99, image: 'https://picsum.photos/seed/psu-stickers/400/240' },
-            { id: 4, name: 'Penn State Scarf', description: 'Winter knit', price: 29.99, image: 'https://picsum.photos/seed/psu-scarf/400/240' },
-            { id: 5, name: 'We Are! T-Shirt', description: 'Unisex, cotton', price: 19.99, image: 'https://picsum.photos/seed/psu-shirt/400/240' },
-            { id: 6, name: 'Stainless Tumbler', description: '20 oz insulated', price: 27.50, image: 'https://picsum.photos/seed/psu-tumbler/400/240' },
-          ];
+        $scope.products = [
+  { id: 1, name: 'PSU T-Shirt', description: 'Unisex cotton, navy', price: 19.99, image: 'https://picsum.photos/seed/psu-tshirt/400/240' },
+  { id: 2, name: 'PSU Mug', description: 'Ceramic, 12 oz', price: 12.99, image: 'https://picsum.photos/seed/psu-mug/400/240' },
+  { id: 3, name: 'Keurig K-Mini Coffee Maker', description: 'Single-serve, gently used', price: 59.00, image: 'https://picsum.photos/seed/keurig/400/240' },
+  { id: 4, name: 'Mini Fridge', description: '3.2 cu ft, works great', price: 110.00, image: 'https://picsum.photos/seed/minifridge/400/240' },
+  { id: 5, name: 'Statistics Textbook', description: 'Intro to Statistics, 10th ed.', price: 48.00, image: 'https://picsum.photos/seed/statistics-textbook/400/240' },
+  { id: 6, name: 'Psychology Textbook', description: 'General Psychology, 6th ed.', price: 42.00, image: 'https://picsum.photos/seed/psychology-textbook/400/240' }
+];
+
 
           $scope.cart = [];
 
