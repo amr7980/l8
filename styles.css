@@ -1,0 +1,44 @@
+/* Global */
+body {
+  font-family: "Poppins", system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  background: #f7f9fc;
+}
+
+/* Cards + subtle polish to match your shipping page feel */
+.card {
+  border: 0;
+  border-radius: 1rem;
+}
+
+.product-card .card-img-top {
+  object-fit: cover;
+  height: 160px;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.cart-thumb {
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
+}
+
+/* Buttons */
+.btn {
+  border-radius: 999px;
+}
+
+/* Header */
+header .display-4 {
+  letter-spacing: 0.3px;
+}
+
+/* Footer */
+footer {
+  position: relative;
+}
+
+/* Utility tweaks */
+.table td, .table th {
+  vertical-align: middle;
+}
